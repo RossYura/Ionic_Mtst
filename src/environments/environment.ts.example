@@ -1,0 +1,12 @@
+export const environment = {
+  // Used for feature flags. Keep false for dev sites.
+  production: false,
+
+  // The API endpoint for the application. Can be a local version of the API
+  // backend or it can point to a live version of the app somewhere. It should
+  // include a trailing slash and will also include a version number. The
+  // version number targets the correct version of the API. You will need to
+  // ask if the latest version is correct, though generally speaking you'll
+  // get an out of date message if you're using a too-old version of the API.
+  appUrl: 'http://mtst-backend.dev/api/v1.1/',
+};
